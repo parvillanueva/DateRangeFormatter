@@ -14,10 +14,7 @@ var date = new DateRangeFormatter('2018-06-11', '2018-06-21');
 var formatted_date = date.format();
 console.log(formatted_date);
 ```
-this will return 
-```js
-June 11 - 21, 2018
-```
+Result : June 11 - 21, 2018
 
 ## Custom Separator
 ```js
@@ -25,10 +22,7 @@ var date = new DateRangeFormatter('2018-06-11', '2018-06-21', 'to');
 var formatted_date = date.format();
 console.log(formatted_date);
 ```
-this will return 
-```js
-June 11 to 21, 2018
-```
+Result : June 11 to 21, 2018
 
 ## Data from array
 ```js
@@ -37,10 +31,7 @@ var date = new DateRangeFormatter(dates);
 var formatted_date = date.format();
 console.log(formatted_date);
 ```
-this will return 
-```js
-June 11 - 21, 2018
-```
+Result : June 11 - 21, 2018
 
 ## Data from array with custom separator
 ```js
@@ -49,10 +40,7 @@ var date = new DateRangeFormatter(dates, 'to');
 var formatted_date = date.format();
 console.log(formatted_date);
 ```
-this will return 
-```js
-June 11 to 21, 2018
-```
+Result : June 11 to 21, 2018
 
 
 ## Date with different Month
@@ -61,10 +49,7 @@ var date = new DateRangeFormatter('2018-06-11', '2018-07-21');
 var formatted_date = date.format();
 console.log(formatted_date);
 ```
-this will return 
-```js
-June 11 - July 21, 2018
-```
+Result : June 11 - July 21, 2018
 
 ## Date with different Year
 ```js
@@ -72,7 +57,4 @@ var date = new DateRangeFormatter('2018-06-11', '2019-07-21');
 var formatted_date = date.format();
 console.log(formatted_date);
 ```
-this will return 
-```js
-June 11, 2018 - July 21, 2019
-```
+Result : June 11, 2018 - July 21, 2019
